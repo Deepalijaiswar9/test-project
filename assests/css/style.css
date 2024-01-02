@@ -1,0 +1,1002 @@
+/* universal here ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* wrapper here================= */
+.wrapper {
+  max-width: 1365px;
+  width: 89.5%;
+  margin: 0 auto;
+}
+
+/* all similar tag here */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+a,
+figure {
+  display: flex;
+}
+
+/* header start here================ */
+
+/* upper header start here========================== */
+.upperHeader {
+  padding: 9.7px 0;
+}
+
+.upperHeader .wrapper,
+.upperHeader ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upperHeader ul {
+  width: 75%;
+}
+
+#logo {
+  width: 242px;
+}
+
+#drLogo {
+  width: 63px;
+}
+
+#ukLogo {
+  width: 50px;
+}
+
+.bookConsult::before,
+.callUs::before,
+.emailUs::before {
+  font-family: "fontAwesome";
+  text-indent: 0;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.bookConsult::before {
+  content: "\f109";
+}
+
+.callUs::before {
+  content: "\f095";
+}
+
+.emailUs::before {
+  content: "\f0e0";
+}
+
+.upperHeader .bookConsult,
+.upperHeader .callUs,
+.upperHeader .emailUs {
+  line-height: 1.6;
+}
+
+.upperHeader .bookConsult span,
+.upperHeader .callUs span,
+.upperHeader .emailUs span {
+  font-size: 15px;
+  color: #808080;
+}
+
+.upperHeader .bookConsult a,
+.upperHeader .callUs a,
+.upperHeader .emailUs a {
+  font-size: 18px;
+  color: #380000;
+  font-weight: bold;
+}
+
+.upperHeader ul li,
+.countryLogo {
+  display: flex;
+  align-items: center;
+}
+
+.countryLogo img {
+  padding-right: 10px;
+  width: 60px !important;
+}
+
+/* upper header end here========================== */
+
+/* lower header start here========================== */
+.lowerHeader {
+  background-color: #23c1ff;
+}
+
+.lowerHeader .wrapper,
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lowerHeader nav {
+  width: 65%;
+}
+
+.navList a {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.navbar a:hover{
+  background-color: #fff;
+  color: #1DA1F2;
+}
+#search {
+  background-color: #0059ff;
+  color: #fff;
+  border: transparent;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #fff;
+  padding: 0 10px;
+}
+
+.mobileNavbarBtn{
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.mobileNavbarIcon{
+  width: 30px;
+  height: 30px;
+}
+
+.mobileNavbarIcon[name="close-outline"]{
+  display: none;
+}
+/* lower header start here========================== */
+
+/* header end here================ */
+
+
+/* banner section start here====================== */
+.banner {
+  position: relative;
+}
+
+#bannerImage {
+  width: 100%;
+  background-color: #ddd;
+  height: 336px;
+}
+
+.bannerText {
+  position: absolute;
+  top: 14.3%;
+  width: 45%;
+}
+
+.bannerText div {
+  line-height: 1.8;
+  padding: 5px 0;
+}
+
+.bannerText div h2 {
+  font-size: 40px;
+  /* padding-bottom: 1px; */
+}
+
+.bannerText div p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.bannerText ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bannerText ul a {
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+}
+
+.bannerText ul a::after {
+  content: "\f105";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  padding: 0 8px;
+  font-size: 20px;
+}
+
+#enquireButton {
+  padding: 11px 35px;
+  color: #fff;
+  background-color: #23c1ff;
+  border: transparent;
+  margin-top: 28px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+/* banner section end here====================== */
+
+/* overview section start here======================= */
+
+.overviewOption {
+  padding: 23px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.overview ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* width: 85.4%; */
+}
+
+.overview ul a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* .treatmentOverview{
+} */
+
+.treatmentOverview .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #23c1ff;
+  padding: 59px 0;
+}
+
+.treatmentOverviewText h3 {
+  color: #000;
+  font-size: 29px;
+  letter-spacing: 0.4px;
+  padding-bottom: 40px;
+}
+
+.treatmentOverviewText p {
+  padding-bottom: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+
+}
+
+.treatmentOverviewText {
+  width: 46%;
+  color: #808080;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* .eligibilityTreatment{
+} */
+/* .eligibilityTreatment,
+.preparationTreatment .wrapper,
+.aboutTreatment .wrapper,
+.careTreatment .wrapper,
+.recoveryTreatment .wrapper {
+
+} */
+
+.eligibilityTreatment h3,
+.preparationTreatment h3,
+.aboutTreatment h3,
+.careTreatment h3,
+.recoveryTreatment h3,
+.faqTreatmentText h3,
+.patientVideo h3 {
+  font-size: 29px;
+  color: #000;
+  padding-bottom: 21px;
+}
+
+.eligibilityTreatmentText,
+.preparationTreatmentText,
+.aboutTreatmentText,
+.careTreatmentText,
+.recoveryTreatmentText,
+.faqTreatmentText {
+  width: 65%;
+  line-height: 1.6;
+  font-weight: bold;
+  color: #808080;
+  font-size: 15px;
+  padding: 53px 0 46px;
+  border-bottom: 1px dashed #23c1ff;
+}
+
+.eligibilityTreatmentText ul,
+.preparationTreatmentText ul,
+.aboutTreatmentText ul,
+.careTreatmentText ul,
+.recoveryTreatmentText ul,
+.faqTreatmentText ul {
+  display: block;
+}
+
+.eligibilityTreatmentText span,
+.preparationTreatmentText span,
+.aboutTreatmentText span,
+.careTreatmentText span,
+.recoveryTreatmentText span {
+  padding: 25px 0;
+  display: block;
+}
+
+.eligibilityTreatmentText li,
+.preparationTreatmentText li,
+.aboutTreatmentText li,
+.careTreatmentText li,
+.recoveryTreatmentText li {
+  line-height: 1.9;
+}
+
+.eligibilityTreatmentText li::before,
+.preparationTreatmentText li::before,
+.aboutTreatmentText li::before,
+.careTreatmentText li::before,
+.recoveryTreatmentText li::before {
+  content: "\f10c";
+  font-family: "fontAwesome";
+  color: #1DA1F2;
+  padding: 0 20px 0 10px;
+  font-size: 10px;
+}
+
+.faqTreatment {
+  padding: 12px 0;
+}
+
+.faqTreatment h3 {
+  padding-bottom: 23px;
+}
+
+.faqTreatmentText li {
+  font-size: 17.6px;
+  padding: 16px 0;
+  border-top: 1px solid #808080;
+}
+
+.faqTreatmentText li::before {
+  content: "\+";
+  color: #1DA1F2;
+  padding: 0 20px 0 13px;
+  font-size: 20px;
+}
+
+/* overview section end here======================= */
+
+/* patient video start========================================== */
+
+.patientVideo{
+  padding: 42px 0;
+}
+
+.patientVideo h3{
+  padding-bottom: 40px;
+}
+
+.patientVideo .videos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+  justify-content: space-between;
+}
+
+/* patient video end========================================== */
+
+
+/* doctors======== */
+.doctors,
+.hospitals{
+  background-color: #e8f8ffd5;
+  text-align: center;
+  padding: 75px 0;
+}
+
+.topDoctors span,
+.topHospitals span{
+  color: #ff0000;
+  font-size: 30px;
+  font-style: italic;
+
+}
+
+.topDoctors h4,
+.topHospitals h4{
+  padding: 30px 0;
+  font-size: 40px;
+}
+
+.doctorsOption,
+.hospitalsOption{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.doctorsOption figure,
+.hospitalsOption figure{
+  display: block;
+  background-color: #fff;
+}
+
+.doctorsOption figure figcaption,
+  .hospitalsOption figure figcaption{
+  padding: 10px 0 20px;
+  line-height: 1.8;
+}
+
+.doctorsOption figcaption p:nth-child(2),
+.hospitalsOption figcaption p:nth-child(2){
+
+  font-weight: bold;
+}
+
+
+.doctorsOption figcaption span,
+.hospitalsOption figcaption span{
+
+  font-size: 20px;
+}
+
+
+.doctorsOption img{
+  padding:10px;
+  margin: auto;
+  background-color: #fff;
+
+}
+
+.hospitals{
+  background-color: #fff !important;
+}
+
+.topHospitals .exploreMore{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.topHospitals .exploreMore a{
+  color: red;
+  text-decoration: underline;
+}
+
+.hospitalsOption figcaption p{
+  font-weight: bold;
+  font-size: 25px;
+}
+.hospitalsOption figure{
+  border: 1px dashed #ff0000;
+  border-radius: 10px;
+}
+
+.hospitalsOption figure img{
+  border-radius: 10px 10px 0 0;
+
+}
+
+
+
+/* healthcare section start here===================== */
+.healthcare {
+  background-color: #1DA1F2;
+  padding: 55px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.healthcare .wrapper div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 25px;
+}
+
+.healthcare span {
+  font-size: 25px;
+}
+
+.healthcare h5 {
+  font-size: 54px;
+  padding-top: 16px;
+}
+
+.healthcare a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.healthcare #getInTouch {
+  padding: 15px 60px;
+  background-color: #0059ff;
+  margin-right: 20px;
+
+}
+
+.healthcare #callNow {
+  font-size: 30px;
+  padding: 10px;
+  border-left: 1px solid #fff;
+}
+
+/* healthcare section end here===================== */
+
+/* footer start here============================== */
+
+/* footer upper start here============================ */
+.footerUpper {
+  /* padding: 43px 0; */
+  background-color: #0B2432;
+}
+
+.footerUpper .allLinks {
+  padding: 52px 0 39px;
+}
+
+
+.footerUpper .allLinks,
+.socialLinks .wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.footerUpper .allLinks span,
+.socialMedia span {
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.footerUpper .allLinks a {
+  color: #fff;
+  padding: 6px 0;
+}
+
+.footerUpper .allLinks a::before {
+  color: #0059ff;
+  content: "-";
+  padding: 0 11px;
+}
+
+.socialLinks .wrapper {
+  /* align-items: center; */
+  padding: 37px 0 43px;
+  border-top: 2px solid grey;
+}
+
+.socialLinks .wrapper img {
+  height: 106px;
+}
+
+.aboutOurWebsite {
+  width: 47%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.aboutOurWebsite span {
+  font-size: 23px;
+  display: block;
+  padding-bottom: 8px;
+  letter-spacing: 0.6px;
+}
+
+.socialMedia {
+  width: 17.5%;
+  padding-left: 10px;
+}
+
+.socialMedia .socialMediaIcon ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialMedia .socialMediaIcon span {
+  font-size: 24px !important;
+  padding-top: 5px;
+}
+
+.socialMedia .customerService span {
+  font-size: 17px !important;
+  padding-top: 35px;
+  padding-bottom: 5px !important;
+}
+
+.socialMedia .customerService a {
+  color: #1DA1F2 !important;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.footerUpper .socialLinks,
+.footerUpper .socialLinks a {
+  color: #fff;
+}
+
+.socialMediaIcon a {
+  text-indent: -9999px;
+}
+
+.socialMediaIcon a::before {
+  font-family: "fontAwesome";
+  text-indent: 0;
+  padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 5px;
+
+}
+
+.socialMediaIcon #facebook::before {
+  content: "\f09a";
+  color: #fff;
+  background-color: #4867AA;
+}
+
+.socialMediaIcon #twitter::before {
+  content: "\f099";
+  color: #fff;
+  background-color: #1DA1F2;
+
+}
+
+.socialMediaIcon #instagram::before {
+  content: "\f16d";
+  background-color: #fff;
+  color: #F402B8;
+}
+
+.socialMediaIcon #youtube::before {
+  content: "\f167";
+  color: #ff0000;
+  background-color: #fff;
+}
+
+.medicalTourismDestination {
+  padding-top: 90px;
+}
+
+/* footer upper end here============================ */
+
+/* join================================== */
+footer {
+  position: relative;
+}
+
+.joinUs {
+  position: absolute;
+  padding: 20px;
+  top: -7%;
+  right: -2%;
+}
+
+.joinUs .wrapper {
+  width: 65%;
+  background-color: #fff;
+  padding: 0 0 10px 20px;
+}
+
+.joinMember {
+  align-items: center;
+  display: flex;
+  padding: 10px 0;
+}
+
+.joinMember h6 {
+  font-size: 20px;
+}
+
+.joinUs p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  line-height: 1.6;
+}
+
+.joinMember::before {
+  content: "\f007";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  font-size: 40px;
+  padding-right: 15px;
+}
+
+/* join================================== */
+
+/* footerLower start here========================== */
+.footerLower {
+  padding: 25.2px 0;
+  background-color: #23c1ff;
+}
+
+.footerLower .wrapper,
+.footerLower div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.7px;
+
+}
+
+.footerLower,
+.footerLower a {
+  color: #fff;
+  font-size: 15px;
+}
+
+.TC {
+  width: 24.3% !important;
+}
+
+/* footer lower end here========================== */
+
+/* ===
+
+
+=================================
+================================
+==============================
+==============================
+===========================
+======================
+RESPONSIVE START HERE======================
+=====================
+=
+=
+==
+=
+=
+=
+= */
+
+@media screen and (max-width: 1115px) {
+
+  .upperHeader .bookConsult,
+  .upperHeader .callUs,
+  .upperHeader .emailUs {
+    text-indent: -9999px;
+  }
+
+  .bannerText {
+    width: 100%;
+}
+
+.bannerText div h2 {
+  font-size: 30px;
+}
+
+.joinUs{
+  display: none;
+}
+
+.medicalTourismDestination {
+  padding-top: 0;
+}
+
+.socialLinks .wrapper {
+  display: block;
+}
+.socialLinks .wrapper figure{
+  justify-content: center;
+}
+
+.aboutOurWebsite {
+  width: 100%;
+}
+
+.socialMedia {
+  width: 40%;
+}
+
+.patientVideo .videos{
+  width: 100%;
+}
+
+.patientVideo .videos figure{
+margin: 20px !important;
+
+}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  .lowerHeader nav {
+    width: 100%;
+}
+#search {
+  font-size: 15px;
+}
+
+.bannerText {
+  width: 80%;
+}
+
+.overview ul li{
+  padding: 2px;
+}
+.overview ul a{
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+}
+
+.treatmentOverview .wrapper {
+  display: block;
+}
+.treatmentOverviewText {
+  width: 100%;
+}
+.treatmentOverviewImage{
+  justify-content: center;
+}
+
+.treatmentOverviewImage img{
+  width: 100%;
+}
+
+.healthcare h5 {
+  font-size: 30px !important;
+}
+}
+@media screen and (max-width: 995px) {
+}
+
+@media screen and (max-width: 890px) {
+.mobileNavbarBtn{
+  display: block;
+  z-index: 999;
+}
+
+.lowerHeader{
+  position: relative;
+}
+.navbar{
+  /* display: none; */
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: #1DA1F2;
+  top:0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events:none;
+}
+
+.active .navbar{
+  opacity: 1;
+  visibility: visible;
+  pointer-events:auto;
+}
+
+.active .mobileNavbarBtn .mobileNavbarIcon [name="close-outline"]{
+  display: block;
+}
+.active .mobileNavbarBtn .mobileNavbarIcon [name="menu-outline"]{
+  display: none;
+}
+
+.navbar .navList{
+  flex-direction: column;
+}
+.navbar .navList li{
+  padding: 5px;
+}
+.navbar .navList a{
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+.eligibilityTreatmentText, .preparationTreatmentText, .aboutTreatmentText, .careTreatmentText, .recoveryTreatmentText, .faqTreatmentText {
+  width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+
+}
+
+
+@media screen and (max-width: 580px) {
+  #logo {
+    width: 100px !important;
+  }
+
+  #drLogo {
+    width: 30px !important;
+  }
+
+  .bookConsult::before,
+  .callUs::before,
+  .emailUs::before {
+    font-size: 30px;
+  }
+
+  .healthcare .wrapper div {
+    display: block;
+}
+.healthcare #getInTouch {
+  margin-right: 0;
+  justify-content: center;
+}
+
+.healthcare #callNow {
+  font-size: 20px;
+  border: none;
+  justify-content: center;
+}
+
+.socialMedia {
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 460px) {
+  #drLogo {
+    width: 20px !important;
+  }
+
+  .bookConsult::before,
+  .callUs::before,
+  .emailUs::before {
+    font-size: 20px;
+  }
+  .bannerText {
+    position: absolute;
+    top: 5%;
+  }
+  #enquireButton{
+    margin: 0 !important;
+  }
+  .bannerText div h2 {
+    font-size: 20px;
+  }
+  .bannerText div {
+    line-height: 1.5;}
+
+    .healthcare span {
+      font-size: 15px;
+  }
+    .healthcare h5 {
+      font-size: 20px !important;
+    }
+
+  }
+
+  .socialLinks .wrapper img {
+    height: 50px;
+}
+
+}
